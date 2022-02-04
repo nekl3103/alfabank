@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nekl3103.github.io/alfabank/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -41,6 +42,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1"
