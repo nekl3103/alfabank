@@ -1,0 +1,13 @@
+.content{
+  padding: 0 50px;
+  background: #f0f2f5;
+  @media (max-width: 767px){
+    padding: 0;
+  }
+  
+}
+.wrap{
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
