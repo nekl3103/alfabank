@@ -20,7 +20,7 @@ sagaMiddleware.run(rootSaga);
 
 export const App = () => (
   <Provider store={ store }>
-    <BrowserRouter>
+    <BrowserRouter basename={ window.location.pathname || '' }>
       <Routes>
         <Route path="/" element={ <Home /> } />
       </Routes>
